@@ -32,7 +32,7 @@ public class Hooks {
 		
    
    @After
-   public void tearDown(Scenario scenario) {
+   public void tearDown(Scenario scenario){
        		
       driver.quit();
       
