@@ -17,5 +17,5 @@ Feature: TS_003 Validate the working of language and level filters for web devel
     And search for "Web Development Course"
     When selecting the Language checkBox
     And respective results of language is shown
-    Then selecting the Level checkBox
+    Then selecting the Level checkBox 
     Then respective results of Level is shown
